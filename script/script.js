@@ -1,9 +1,9 @@
 //javascript function for the disappearing design button and text appearing on click
-var times=0;
+var times = 0;
 
-$(".designbtn").on("click", function(){
+$(".designbtn").on("click", function() {
     times++;
-    if (times%2===1){
+    if (times % 2 === 1) {
         $("#designparagraph").fadeIn("slow");
         $('.designbtn').css({
             'display': 'none',
@@ -11,8 +11,7 @@ $(".designbtn").on("click", function(){
         });
 
 
-    }
-    else{
+    } else {
         $("#designparagraph").fadeOut("slow");
 
     }
@@ -21,18 +20,17 @@ $(".designbtn").on("click", function(){
 
 
 //javascript function for disappearing development button
-var times2=0;
+var times2 = 0;
 
-$("#devbtn").on("click", function(){
+$("#devbtn").on("click", function() {
     times2++;
-    if (times2%2===1){
+    if (times2 % 2 === 1) {
         $("#devparagraph").fadeIn("slow");
         $('#devbtn').css({
             'display': 'none',
 
         });
-    }
-    else{
+    } else {
         $("#devparagraph").fadeOut("slow");
 
     }
@@ -41,19 +39,18 @@ $("#devbtn").on("click", function(){
 
 //javascript for the disappearing product button for the paragraph to appear
 
-var times3=0;
+var times3 = 0;
 
-$("#productbtn").on("click", function(){
+$("#productbtn").on("click", function() {
     times3++;
-    if (times3%2===1){
+    if (times3 % 2 === 1) {
         $("#productparagraph").fadeIn("slow");
         $('#productbtn').css({
             'display': 'none',
 
 
         });
-    }
-    else{
+    } else {
         $("#productparagraph").fadeOut("slow");
 
     }
@@ -72,14 +69,14 @@ function myFunction() {
 //this function prevents the page from redirecting someone to the mailchimp thanks for subscribing webpage
 //however, the return false part makes the form not clear the input field cleared and not return to top of page on submit
 
-$(document).ready(function(){
+$(document).ready(function() {
     var $form = $('form');
-    $form.submit(function(){
-        $.post($(this).attr('action'), $(this).serialize(), function(response){
+    $form.submit(function() {
+        $.post($(this).attr('action'), $(this).serialize(), function(response) {
             // do something here on success
-        },'json');
+        }, 'json');
         return false;
-        
+
     });
 });
 
@@ -89,29 +86,3 @@ function scrollToTop() {
     window.scrollTo(0, 0);
     return true;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
