@@ -1,4 +1,4 @@
-//javascript function for the disappearing design button and text appearing on click
+//js function for the visibility design of button and text appearing on click
 var times = 0;
 
 $(".designbtn").on("click", function() {
