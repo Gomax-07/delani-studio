@@ -1,7 +1,7 @@
 ## Delani-studio
 A replica of Delani-studio portfolio of 2019
 
-<img src = ""></img>
+<img src = "https://github.com/Gomax-07/delani-studio/blob/master/assets/backgrounds/h_img.jpg"></img>
 
 ## Program Name:
 ###  Delani-studio emulator.
