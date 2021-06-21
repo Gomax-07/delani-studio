@@ -19,7 +19,7 @@ $(".designbtn").on("click", function() {
 });
 
 
-//javascript function for disappearing development button
+//js function for disappearing development button
 var times2 = 0;
 
 $("#devbtn").on("click", function() {
