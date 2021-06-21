@@ -37,7 +37,7 @@ $("#devbtn").on("click", function() {
 
 });
 
-//javascript for the disappearing product button for the paragraph to appear
+//js for the disappearing product button for the paragraph to appear
 
 var times3 = 0;
 
