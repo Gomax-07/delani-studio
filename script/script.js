@@ -57,7 +57,7 @@ $("#productbtn").on("click", function() {
 
 });
 
-//function for the alertbox popup to show when user clicks the button
+//js function for the alertbox pop-up to show when user clicks the button
 
 function myFunction() {
     let varName = document.getElementById("MERGE1").value;
@@ -66,8 +66,7 @@ function myFunction() {
     alert("Hey " + nameCaps + ". Thank you for reaching out to us.\nWe have received your message.\nHave a nice day");
 }
 
-//this function prevents the page from redirecting someone to the mailchimp thanks for subscribing webpage
-//however, the return false part makes the form not clear the input field cleared and not return to top of page on submit
+
 
 $(document).ready(function() {
     var $form = $('form');
@@ -81,7 +80,6 @@ $(document).ready(function() {
 });
 
 
-//this function deals with the issue of the form not returning to the top on submission due to the above function since the return value is false
 function scrollToTop() {
     window.scrollTo(0, 0);
     return true;
