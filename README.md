@@ -11,7 +11,7 @@ A replica of Delani-studio portfolio of 2019
  
  ## Description of Project:
  
- A program that outlines a creator's knowle
+ A program that outlines a creator's knowledge on creating a visually pleasing and functional portfolio.
 
 ## Technologies Used:
 
